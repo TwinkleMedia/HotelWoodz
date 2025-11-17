@@ -13,10 +13,10 @@
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
                     <div class="room-grid">
-                        <div class="room-card" data-main="./Room-Section/rm1.webp"
-                            data-images='["./Room-Section/rm1.webp","./Room-Section/variant1.jpg"]'>
+                        <div class="room-card" data-main="/Room-Section/rm1.webp"
+                            data-images='["/Room-Section/rm1.webp","/Room-Section/variant1.jpg"]'>
 
-                            <img src="./Room-Section/rm1.webp" alt="Deluxe Triple Room">
+                            <img src="/Room-Section/rm1.webp" alt="Deluxe Triple Room">
 
                             <!--New Hover Info Section -->
                             <div class="room-info">
@@ -44,10 +44,10 @@
                                 class="room-book-btn" target="_blank">Book Now</a>
                         </div>
 
-                        <div class="room-card" data-main="./Room-Section/rm2.jpg"
-                            data-images='["./Room-Section/rm2.jpg","./Room-Section/variant1.jpg"]'>
+                        <div class="room-card" data-main="/Room-Section/rm2.jpg"
+                            data-images='["/Room-Section/rm2.jpg","/Room-Section/variant1.jpg"]'>
 
-                            <img src="./Room-Section/rm2.jpg" alt="Super Deluxe Triple Room">
+                            <img src="/Room-Section/rm2.jpg" alt="Super Deluxe Triple Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
@@ -71,10 +71,10 @@
                             <a href="https://wa.me/919914145491?text=Hi%20I%20want%20to%20book%20a%20room"
                                 class="room-book-btn" target="_blank">Book Now</a>
                         </div>
-                        <div class="room-card" data-main="./Room-Section/rm3.jpg"
-                            data-images='["./Room-Section/rm3.jpg","./Room-Section/variant4.jpg"]'>
+                        <div class="room-card" data-main="/Room-Section/rm3.jpg"
+                            data-images='["/Room-Section/rm3.jpg","/Room-Section/variant4.jpg"]'>
 
-                            <img src="./Room-Section/rm3.jpg" alt="Deluxe Room">
+                            <img src="/Room-Section/rm3.jpg" alt="Deluxe Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
@@ -137,8 +137,8 @@
                         </div>
 
                         <div class="room-card" data-main="./Room-Section/rm5.jpg"
-                            data-images='["./Room-Section/rm5.jpg","./Room-Section/variant5.jpg","./Room-Section/variant4.jpg","./Room-Section/variant5.jpg"]'>
-                            <img src="./Room-Section/rm5.jpg" alt="Suite Room">
+                            data-images='["/Room-Section/rm5.jpg","/Room-Section/variant5.jpg","/Room-Section/variant4.jpg","/Room-Section/variant5.jpg"]'>
+                            <img src="/Room-Section/rm5.jpg" alt="Suite Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
@@ -162,9 +162,9 @@
                             <a href="https://wa.me/919914145491?text=Hi%20I%20want%20to%20book%20a%20room"
                                 class="room-book-btn" target="_blank">Book Now</a>
                         </div>
-                        <div class="room-card" data-main="./Room-Section/rm2.webp"
-                            data-images='["./Room-Section/rm2.webp","./Room-Section/variant5.jpg","./Room-Section/variant4.jpg","./Room-Section/variant3.jpg"]'>
-                            <img src="./Room-Section/rm2.webp" alt="Luxury Room">
+                        <div class="room-card" data-main="/Room-Section/rm2.webp"
+                            data-images='["/Room-Section/rm2.webp","/Room-Section/variant5.jpg","/Room-Section/variant4.jpg","/Room-Section/variant3.jpg"]'>
+                            <img src="/Room-Section/rm2.webp" alt="Luxury Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
