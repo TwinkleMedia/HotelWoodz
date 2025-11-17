@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-logo">
-            <img src="/HOTEL WOODZ/logo.png" alt="logo">
+            <img src="./logo.png" alt="logo">
             <h4>HOTEL WOODZ</h4>
         </div>
 

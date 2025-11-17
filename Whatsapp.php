@@ -14,7 +14,7 @@ $waUrl = "https://wa.me/{$phone_digits}?text={$encodedMsg}";
   aria-label="Chat with us on WhatsApp" title="Chat with us on WhatsApp">
 
   <span class="wa-icon">
-    <img src="/HOTEL WOODZ/whatsAppIcon.png" alt="WhatsApp">
+    <img src="whatsAppIcon.png" alt="WhatsApp">
   </span>
 
 
