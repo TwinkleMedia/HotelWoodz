@@ -16,7 +16,7 @@
                         <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm1.webp"
                             data-images='["/Hotel Woodz/Room-Section/rm1.webp","/Hotel Woodz/Room-Section/variant1.jpg"]'>
 
-                            <img src="/Hotel Woodz/Room-Section/rm1.webp" alt="Deluxe Triple Room">
+                            <img src="./Room-Section/rm1.webp" alt="Deluxe Triple Room">
 
                             <!--New Hover Info Section -->
                             <div class="room-info">
@@ -47,7 +47,7 @@
                         <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm2.jpg"
                             data-images='["/Hotel Woodz/Room-Section/rm2.jpg","/Hotel Woodz/Room-Section/variant1.jpg"]'>
 
-                            <img src="/Hotel Woodz/Room-Section/rm2.jpg" alt="Super Deluxe Triple Room">
+                            <img src="./Room-Section/rm2.jpg" alt="Super Deluxe Triple Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
@@ -74,7 +74,7 @@
                         <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm3.jpg"
                             data-images='["/Hotel Woodz/Room-Section/rm3.jpg","/Hotel Woodz/Room-Section/variant4.jpg"]'>
 
-                            <img src="/Hotel Woodz/Room-Section/rm3.jpg" alt="Deluxe Room">
+                            <img src="./Room-Section/rm3.jpg" alt="Deluxe Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
@@ -106,7 +106,7 @@
                     <div class="room-grid">
                         <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm4.jpg"
                             data-images='["/Hotel Woodz/Room-Section/rm4.jpg","/Hotel Woodz/Room-Section/variant2.jpg","/Hotel Woodz/Room-Section/variant4.jpg","/Hotel Woodz/Room-Section/variant1.jpg"]'>
-                            <img src="/Hotel Woodz/Room-Section/rm4.jpg" alt="Family Room">
+                            <img src="./Room-Section/rm4.jpg" alt="Family Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm5.jpg"
                             data-images='["/Hotel Woodz/Room-Section/rm5.jpg","/Hotel Woodz/Room-Section/variant5.jpg","/Hotel Woodz/Room-Section/variant4.jpg","/Hotel Woodz/Room-Section/variant5.jpg"]'>
-                            <img src="/Hotel Woodz/Room-Section/rm5.jpg" alt="Suite Room">
+                            <img src="./Room-Section/rm5.jpg" alt="Suite Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
@@ -158,7 +158,7 @@
                         </div>
                         <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm2.webp"
                             data-images='["/Hotel Woodz/Room-Section/rm2.webp","/Hotel Woodz/Room-Section/variant5.jpg","/Hotel Woodz/Room-Section/variant4.jpg","/Hotel Woodz/Room-Section/variant3.jpg"]'>
-                            <img src="/Hotel Woodz/Room-Section/rm2.webp" alt="Luxury Room">
+                            <img src="./Room-Section/rm2.webp" alt="Luxury Room">
                             <div class="room-info">
 
                                 <h3 class="room-title">Deluxe Room</h3>
