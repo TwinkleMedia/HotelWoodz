@@ -77,7 +77,7 @@
                             <img src="/Room-Section/rm3.jpg" alt="Deluxe Room">
                             <div class="room-info">
 
-                                <h3 class="room-title">Deluxe Room</h3>
+                                <h3 class="room-title">Super Deluxe Room</h3>
                                 <ul class="room-list">
                                     <li>City View</li>
                                     <li>Housekeeping</li>
