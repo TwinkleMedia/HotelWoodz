@@ -3,7 +3,7 @@
 <nav class="navbar">
     <div class="container">
         <a href="/HOTEL WOODZ/index.php" class="navbar-logo">
-            <img src="logo.png" alt="logo">
+            <img src="../logo.png" alt="logo">
         </a>
 
         <!-- Hamburger Icon -->

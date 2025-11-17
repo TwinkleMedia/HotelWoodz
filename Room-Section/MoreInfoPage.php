@@ -1,6 +1,6 @@
 <?php
 $siteName = 'The Woodz Hotel';
-$roomImage = $_GET['img'] ?? '/Hotel Woodz/default-room.jpg';
+$roomImage = $_GET['img'] ?? './default-room.jpg';
 ?>
 
 <!doctype html>
