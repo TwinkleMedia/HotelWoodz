@@ -16,7 +16,7 @@
         <!-- Menu Links -->
         <ul class="nav-menu">
             <li><a href="../index.php" class="nav-link">Home</a></li>
-            <li><a href="../AboutusPage.php" class="nav-link">About Us</a></li>
+            <li><a href=".../AboutusPage.php" class="nav-link">About Us</a></li>
             <li><a href="./Room-Section/RoomsPage.php" class="nav-link">Rooms</a></li>
             <li><a href="./Gallery/gallery.php" class="nav-link">Gallery</a></li>
             <li><a href="./ContactUs/contact.php" class="nav-link">Contact</a></li>
