@@ -104,11 +104,16 @@
                 <!-- Slide 2 -->
                 <div class="carousel-item">
                     <div class="room-grid">
-                        <div class="room-card" data-main="./Room-Section/rm4.jpg"
-                            data-images='["./Room-Section/rm4.jpg","./Room-Section/variant2.jpg","./Room-Section/variant4.jpg","./Room-Section/variant1.jpg"]'>
-                            <img src="./Room-Section/rm4.jpg" alt="Family Room">
-                            <div class="room-info">
+                        <div class="room-card" data-main="/Room-Section/rm4.jpg" data-images='[
+        "/Room-Section/rm4.jpg",
+        "/Room-Section/variant2.jpg",
+        "/Room-Section/variant4.jpg",
+        "/Room-Section/variant1.jpg"
+     ]'>
 
+                            <img src="/Room-Section/rm4.jpg" alt="Family Room">
+
+                            <div class="room-info">
                                 <h3 class="room-title">Deluxe Room</h3>
                                 <ul class="room-list">
                                     <li>City View</li>
@@ -123,13 +128,14 @@
                                         <i class="fa-solid fa-bath"></i>
                                         <i class="fa-solid fa-couch"></i>
                                     </div>
-                                    <a href="#" class="moreInfo">More Info
-                                        →</a>
+                                    <a href="#" class="moreInfo">More Info →</a>
                                 </div>
                             </div>
+
                             <a href="https://wa.me/919914145491?text=Hi%20I%20want%20to%20book%20a%20room"
                                 class="room-book-btn" target="_blank">Book Now</a>
                         </div>
+
                         <div class="room-card" data-main="./Room-Section/rm5.jpg"
                             data-images='["./Room-Section/rm5.jpg","./Room-Section/variant5.jpg","./Room-Section/variant4.jpg","./Room-Section/variant5.jpg"]'>
                             <img src="./Room-Section/rm5.jpg" alt="Suite Room">
