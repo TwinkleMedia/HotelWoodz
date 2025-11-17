@@ -13,8 +13,8 @@
                 <!-- Slide 1 -->
                 <div class="carousel-item active">
                     <div class="room-grid">
-                        <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm1.webp"
-                            data-images='["/Hotel Woodz/Room-Section/rm1.webp","/Hotel Woodz/Room-Section/variant1.jpg"]'>
+                        <div class="room-card" data-main="./Room-Section/rm1.webp"
+                            data-images='["./Room-Section/rm1.webp","./Room-Section/variant1.jpg"]'>
 
                             <img src="./Room-Section/rm1.webp" alt="Deluxe Triple Room">
 
@@ -44,8 +44,8 @@
                                 class="room-book-btn" target="_blank">Book Now</a>
                         </div>
 
-                        <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm2.jpg"
-                            data-images='["/Hotel Woodz/Room-Section/rm2.jpg","/Hotel Woodz/Room-Section/variant1.jpg"]'>
+                        <div class="room-card" data-main="./Room-Section/rm2.jpg"
+                            data-images='["./Room-Section/rm2.jpg","./Room-Section/variant1.jpg"]'>
 
                             <img src="./Room-Section/rm2.jpg" alt="Super Deluxe Triple Room">
                             <div class="room-info">
@@ -71,8 +71,8 @@
                             <a href="https://wa.me/919914145491?text=Hi%20I%20want%20to%20book%20a%20room"
                                 class="room-book-btn" target="_blank">Book Now</a>
                         </div>
-                        <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm3.jpg"
-                            data-images='["/Hotel Woodz/Room-Section/rm3.jpg","/Hotel Woodz/Room-Section/variant4.jpg"]'>
+                        <div class="room-card" data-main="./Room-Section/rm3.jpg"
+                            data-images='["./Room-Section/rm3.jpg","./Room-Section/variant4.jpg"]'>
 
                             <img src="./Room-Section/rm3.jpg" alt="Deluxe Room">
                             <div class="room-info">
@@ -104,8 +104,8 @@
                 <!-- Slide 2 -->
                 <div class="carousel-item">
                     <div class="room-grid">
-                        <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm4.jpg"
-                            data-images='["/Hotel Woodz/Room-Section/rm4.jpg","/Hotel Woodz/Room-Section/variant2.jpg","/Hotel Woodz/Room-Section/variant4.jpg","/Hotel Woodz/Room-Section/variant1.jpg"]'>
+                        <div class="room-card" data-main="./Room-Section/rm4.jpg"
+                            data-images='["./Room-Section/rm4.jpg","./Room-Section/variant2.jpg","./Room-Section/variant4.jpg","./Room-Section/variant1.jpg"]'>
                             <img src="./Room-Section/rm4.jpg" alt="Family Room">
                             <div class="room-info">
 
@@ -130,8 +130,8 @@
                             <a href="https://wa.me/919914145491?text=Hi%20I%20want%20to%20book%20a%20room"
                                 class="room-book-btn" target="_blank">Book Now</a>
                         </div>
-                        <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm5.jpg"
-                            data-images='["/Hotel Woodz/Room-Section/rm5.jpg","/Hotel Woodz/Room-Section/variant5.jpg","/Hotel Woodz/Room-Section/variant4.jpg","/Hotel Woodz/Room-Section/variant5.jpg"]'>
+                        <div class="room-card" data-main="./Room-Section/rm5.jpg"
+                            data-images='["./Room-Section/rm5.jpg","./Room-Section/variant5.jpg","./Room-Section/variant4.jpg","./Room-Section/variant5.jpg"]'>
                             <img src="./Room-Section/rm5.jpg" alt="Suite Room">
                             <div class="room-info">
 
@@ -156,8 +156,8 @@
                             <a href="https://wa.me/919914145491?text=Hi%20I%20want%20to%20book%20a%20room"
                                 class="room-book-btn" target="_blank">Book Now</a>
                         </div>
-                        <div class="room-card" data-main="/Hotel Woodz/Room-Section/rm2.webp"
-                            data-images='["/Hotel Woodz/Room-Section/rm2.webp","/Hotel Woodz/Room-Section/variant5.jpg","/Hotel Woodz/Room-Section/variant4.jpg","/Hotel Woodz/Room-Section/variant3.jpg"]'>
+                        <div class="room-card" data-main="./Room-Section/rm2.webp"
+                            data-images='["./Room-Section/rm2.webp","./Room-Section/variant5.jpg","./Room-Section/variant4.jpg","./Room-Section/variant3.jpg"]'>
                             <img src="./Room-Section/rm2.webp" alt="Luxury Room">
                             <div class="room-info">
 
@@ -648,7 +648,7 @@
 
         moreInfoBtn.addEventListener("click", function (e) {
             e.stopPropagation();
-            window.location.href = `/Hotel Woodz/Room-Section/MoreInfoPage.php?img=${encodeURIComponent(mainImage)}`;
+            window.location.href = `./Room-Section/MoreInfoPage.php?img=${encodeURIComponent(mainImage)}`;
         });
     });
 
