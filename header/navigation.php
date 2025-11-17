@@ -16,7 +16,7 @@
         <!-- Menu Links -->
         <ul class="nav-menu">
             <li><a href="index.php" class="nav-link">Home</a></li>
-            <li><a href=".../AboutusPage.php" class="nav-link">About Us</a></li>
+            <li><a href="./AboutusPage.php" class="nav-link">About Us</a></li>
             <li><a href="/HOTEL WOODZ/Room-Section/RoomsPage.php" class="nav-link">Rooms</a></li>
             <li><a href="/HOTEL WOODZ/Gallery/gallery.php" class="nav-link">Gallery</a></li>
             <li><a href="/HOTEL WOODZ/ContactUs/contact.php" class="nav-link">Contact</a></li>
