@@ -75,7 +75,7 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 100px;
+    gap: 100px !important;
     margin-bottom: 0px;
 }
 
