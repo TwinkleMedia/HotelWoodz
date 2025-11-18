@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/header/nav.css">
+<link rel="stylesheet" href="/header/nav.css?v=2">
 
 <nav class="navbar">
     <div class="navbar-container">
