@@ -75,7 +75,7 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 100px !important;
+    gap: 80px !important;
     margin-bottom: 0px;
 }
 
@@ -147,13 +147,6 @@ body {
     gap: 6px;
 }
 
-.bar {
-    height: 3px;
-    width: 28px;
-    background-color: #F5F5DC;
-    border-radius: 10px;
-    transition: all 0.3s ease;
-}
 
 /* ==============================
    DROPDOWN MENU
@@ -201,6 +194,15 @@ body {
 .dropdown-menu li a:hover {
     background-color: #f0f0f0;
 }
+
+.bar {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
 
 /* ==============================
    Top NavBar
@@ -257,6 +259,10 @@ body {
     visibility: visible;
 }
 
+.nav-menu {
+    transition: 0.4s ease-in-out;
+}
+
 /* Responsive Design */
 @media (max-width: 600px) {
     .top-bar {
@@ -274,55 +280,31 @@ body {
    RESPONSIVE NAV MENU FIXED
    ============================== */
 @media (max-width: 992px) {
-    .navbar .container {
-        padding: 0 25px;
-        height: 80px;
-        position: relative;
-    }
-
     .menu-toggle {
         display: flex;
-        z-index: 2000;
     }
 
     .nav-menu {
         position: fixed;
-        top: 153px;
+        top: 0;
         right: -100%;
-        width: 70%;
+        width: 75%;
         height: 100vh;
-        /* ✅ full screen height */
-        background-color: var(--primary-color);
         flex-direction: column;
-        align-items: flex-start;
-        padding: 25px;
-        box-shadow: var(--shadow-soft);
-        border-radius: 0;
-        transition: right 0.4s ease-in-out;
+        padding: 120px 25px 40px;
+        background: var(--primary-color);
         z-index: 999;
-        overflow-y: auto;
-        gap: 59px;
+        gap: 35px;
     }
 
-
-    /* ✅ When active: slide in */
     .nav-menu.active {
         right: 0;
     }
 
     .nav-menu li {
         width: 100%;
-        padding: 15px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .nav-link {
-        font-size: 1.1rem;
-        color: #fff;
-    }
-
-    .call-btn {
-        margin-top: 20px;
+        padding-bottom: 12px;
     }
 
     /* Hamburger animation */
@@ -337,43 +319,35 @@ body {
     .menu-toggle.is-active .bar:nth-child(3) {
         transform: rotate(-45deg) translate(6px, -6px);
     }
-
-    .top-bar {
-        gap: 0px;
-    }
 }
 
-/* Smaller screens */
 @media (max-width: 576px) {
     .navbar-container {
-        padding: 0 20px;
-        gap: 280px;
+        padding: 0 18px;
+    }
+
+    .navbar-logo img {
+        height: 55px;
     }
 
     .nav-menu {
-        width: 80%;
-        /* Slightly narrower on mobile */
+        width: 85%;
+    }
+
+    .top-bar {
+        font-size: 12px;
+        text-align: center;
+        flex-direction: column;
+        gap: 6px;
     }
 }
 
-@media (max-width:990px) {
-    .navbar-container {
-        padding: 0 20px;
-        gap: 570px;
-    }
-}
-
-@media (max-width: 1024px) {
-
+@media (max-width: 1200px) {
     .nav-menu {
-        gap: 45px;
+        gap: 35px;
     }
 
-}
-@media (max-width:430px)
-{
-    .navbar-container {
-        padding: 0 20px;
-        gap: 203px;
+    .navbar-logo img {
+        height: 60px;
     }
 }
