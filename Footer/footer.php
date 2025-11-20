@@ -45,7 +45,7 @@
 
     .footer-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         gap: 30px;
         align-items: start;
         text-align: left;
@@ -78,6 +78,7 @@
         font-size: 14px;
         line-height: 1.6;
         color: #ccc;
+        text-align: center;
     }
 
     .footer-section i {
