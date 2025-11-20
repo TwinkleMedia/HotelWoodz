@@ -137,6 +137,43 @@
                 margin: 15px auto 0;
             }
         }
+
+        @media (max-width: 768px) {
+            .carousel-inner {
+                height: 300px;
+            }
+
+            .booking-box {
+                padding: 20px;
+            }
+
+            .booking-item label {
+                font-size: 10px;
+            }
+
+            .book-btn {
+                width: 100%;
+            }
+
+            .booking-item select {
+                padding: 10px;
+                font-size: 10px;
+            }
+
+            select {
+                height: 34px;
+                font-size: 10px;
+            }
+
+            .booking-grid {
+                gap: 10px;
+            }
+
+            .book-btn {
+                padding: 5px 40px;
+                margin: 15px auto 0;
+            }
+        }
     </style>
 </head>
 
