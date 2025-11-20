@@ -56,10 +56,15 @@ body {
     justify-content: space-between;
     align-items: center;
     height: var(--nav-height);
-    gap: 40px;
     position: relative;
-    /* ✅ makes nav-menu positioning relative to this */
-    overflow: hidden;
+    width: 100%;
+    min-width: 0;
+    /* prevents squeezing issues */
+}
+
+.navbar-container>* {
+    flex-shrink: 0;
+    /* prevents items from collapsing */
 }
 
 .navbar-logo img {
@@ -324,6 +329,8 @@ body {
 @media (max-width: 576px) {
     .navbar-container {
         padding: 0 18px;
+        gap: 0;
+        /* remove big gap on small devices */
     }
 
     .navbar-logo img {
