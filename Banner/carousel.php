@@ -140,7 +140,7 @@
 
         @media (max-width: 448px) {
             .carousel-inner {
-                height: 268px`;
+                height: 268px;
             }
 
             .booking-box {
