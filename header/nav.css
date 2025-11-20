@@ -51,7 +51,7 @@ body {
 
 .navbar-container {
     margin: 0 auto;
-    padding: 0 160px;
+    padding: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,6 +59,7 @@ body {
     position: relative;
     width: 100%;
     min-width: 0;
+    max-width: 1200px;
     /* prevents squeezing issues */
 }
 
