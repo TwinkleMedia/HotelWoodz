@@ -335,6 +335,9 @@ body {
     .call-btn {
         margin-left: 0px;
     }
+    .top-bar{
+        gap: 0px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -378,6 +381,9 @@ body {
 
     .navbar-logo img {
         height: 60px;
+    }
+    .top-bar{
+        gap: 0;
     }
 
 }
