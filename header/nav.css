@@ -80,7 +80,7 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 40px ;
+    gap: 40px;
     margin-bottom: 0px;
 }
 
@@ -289,6 +289,11 @@ body {
         display: flex;
     }
 
+    .navbar-container {
+        padding: 0 18px;
+        /* already present, keep this */
+    }
+
     .nav-menu {
         position: fixed;
         top: 0;
@@ -352,6 +357,11 @@ body {
 @media (max-width: 1200px) {
     .nav-menu {
         gap: 35px;
+    }
+
+    .navbar-container {
+        padding: 0 40px;
+        /* reduce from 160px */
     }
 
     .navbar-logo img {
