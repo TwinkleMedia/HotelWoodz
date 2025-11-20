@@ -109,7 +109,7 @@
         }
 
         .footer-section p {
-            text-align: left;
+            text-align: center;
             display: flex;
             justify-content: flex-start;
             align-items: center;
