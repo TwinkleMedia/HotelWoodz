@@ -78,7 +78,6 @@
         font-size: 14px;
         line-height: 1.6;
         color: #ccc;
-        text-align: center;
     }
 
     .footer-section i {
