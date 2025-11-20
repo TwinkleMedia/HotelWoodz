@@ -162,7 +162,7 @@ $superDeluxeImg = '../Banner/b7.jpg';
             </div>
             <img src="<?= $superDeluxeImg ?>" alt="Super Deluxe Room">
         </div>
-        <?php include './Room-Section/rooms.php' ?>
+        <?php include __DIR__ . '/rooms.php'; ?>
     </div>
 
     <?php include '../Footer/footer.php'; ?>
