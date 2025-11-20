@@ -42,7 +42,7 @@ body {
     font-size: 14px;
 }
 
-.top-bar .info {
+.top-bar .rightInfo {
     display: flex;
     align-items: center;
     gap: 6px;
