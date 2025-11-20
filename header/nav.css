@@ -345,6 +345,7 @@ body {
 
     .nav-menu {
         width: 85%;
+        gap: 20px!important;
     }
 
     .top-bar {
