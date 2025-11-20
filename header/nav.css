@@ -330,6 +330,10 @@ body {
     .menu-toggle.is-active .bar:nth-child(3) {
         transform: rotate(-45deg) translate(6px, -6px);
     }
+
+    .call-btn {
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 760px) {
@@ -373,4 +377,5 @@ body {
     .navbar-logo img {
         height: 60px;
     }
+
 }
