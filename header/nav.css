@@ -193,7 +193,11 @@ body {
     opacity: 1;
     visibility: visible;
 }
-
+.rightInfo
+{
+    display: flex;
+    gap: 10px;
+}
 /* ==============================
    RESPONSIVE NAV MENU
    ============================== */
