@@ -654,7 +654,7 @@
 
         moreInfoBtn.addEventListener("click", function (e) {
             e.stopPropagation();
-            window.location.href = `./Room-Section/MoreInfoPage.php?img=${encodeURIComponent(mainImage)}`;
+            window.location.href = `/Room-Section/MoreInfoPage.php?img=${encodeURIComponent(mainImage)}`;
         });
     });
 
