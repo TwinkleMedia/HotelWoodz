@@ -77,7 +77,7 @@ The room was spacious, clean, and very comfortable. Everything from the bedding 
         top: 60%;
         left: 0;
         width: 100%;
-        height: 40%;
+        height: 46%;
     }
 
     .section-title {
