@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/header/nav.css?v=2">
+<link rel="stylesheet" href="/header/nav.css?v=<?php echo time(); ?>">
 
 <nav class="navbar">
     <div class="navbar-container">
