@@ -66,7 +66,7 @@ The room was spacious, clean, and very comfortable. Everything from the bedding 
 </section>
 <style>
     .review-section {
-        padding: 60px 0;
+        padding:0px 0;
         background: #F5F5DC;
         position: relative;
     }
