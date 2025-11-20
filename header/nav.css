@@ -51,7 +51,7 @@ body {
 
 .navbar-container {
     margin: 0 auto;
-    padding: 0 60px;
+    padding: 0 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -326,7 +326,7 @@ body {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 760px) {
     .navbar-container {
         padding: 0 18px;
         gap: 0;
