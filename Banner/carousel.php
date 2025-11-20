@@ -138,9 +138,9 @@
             }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 448px) {
             .carousel-inner {
-                height: 300px;
+                height: 268px`;
             }
 
             .booking-box {
