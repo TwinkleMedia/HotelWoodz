@@ -84,6 +84,7 @@ The room was spacious, clean, and very comfortable. Everything from the bedding 
         font-size: 28px;
         font-weight: 700;
         margin-bottom: 20px;
+        text-align: center
     }
 
     /* Top ratings */
