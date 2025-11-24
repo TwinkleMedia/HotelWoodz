@@ -45,7 +45,7 @@
 
     .footer-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 30px;
         align-items: start;
         text-align: left;
