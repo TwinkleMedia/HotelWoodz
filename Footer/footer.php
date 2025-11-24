@@ -103,7 +103,7 @@
     }
 @media (max-width: 1024px) {
     .footer-container {
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
         gap: 25px;
     }
 }
