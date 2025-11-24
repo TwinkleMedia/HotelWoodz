@@ -128,6 +128,25 @@
         width: 100px;
     }
 }
+    @media (max-width: 934px) {
+    .footer {
+        padding: 50px 20px;
+    }
+
+    .footer-container {
+        text-align: center;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .footer-section p {
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+}
 @media (max-width: 480px) {
     .footer {
         padding: 45px 15px;
